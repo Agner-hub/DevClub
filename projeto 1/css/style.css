@@ -72,7 +72,7 @@ img{
         position: flex;
         margin: 0 10px 0;
 
-        left: 50vw;/* conseguir com que ele se adapte ao tamanho da tela assim, mas agora ele não fica do lado da tela que eu quero, ele fica na esquerda ao invés da esquerda*/
+        left: 50vw;/* conseguir com que ele se adapte ao tamanho da tela assim, mas agora ele não fica do lado da tela que eu quero, ele fica na esquerda ao invés da direita*/
     }
     main{
         display: flex;
