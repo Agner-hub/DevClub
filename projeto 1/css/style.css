@@ -69,10 +69,10 @@ img{
         display: none;
     }
     .nav{
-        position: flex;
+        position: absolute;
         margin: 0 10px 0;
 
-        left: 50vw;/* conseguir com que ele se adapte ao tamanho da tela assim, mas agora ele não fica do lado da tela que eu quero, ele fica na esquerda ao invés da direita*/
+        left: 70%;/* conseguir com que ele se adapte ao tamanho da tela assim, mas agora ele não fica do lado da tela que eu quero, ele fica na esquerda ao invés da direita*/
     }
     main{
         display: flex;
