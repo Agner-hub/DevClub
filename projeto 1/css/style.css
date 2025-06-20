@@ -56,8 +56,11 @@ img{
     height: 466.9px;
     margin-left: 100px;
 }
-@media screen and ( max-width: 450px){
+@media screen and ( max-width: 750px){
     
+    *{
+        max-width: 100%;
+    }
     body{
         overflow-x: hidden;
         align-items: center;
@@ -66,12 +69,18 @@ img{
         display: none;
     }
     .nav{
-        position: relative;
-        margin-top: 0px;
-        left: 50vw;
+        position: flex;
+        margin: 0 10px 0;
+
+        left: 50vw;/* conseguir com que ele se adapte ao tamanho da tela assim, mas agora ele não fica do lado da tela que eu quero, ele fica na esquerda ao invés da esquerda*/
     }
     main{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;/*para quebra elementos quando a tela for pequena*/
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        padding: 0 20px;
     }
     img{
         display: block;
@@ -91,7 +100,7 @@ img{
         text-align: center;
         font-size: 20px;
         margin: 250px auto 0;
-        margin-left:20px;
+        padding: 0 20px;
         bottom: 600px;
     }
     h1{
@@ -105,7 +114,8 @@ img{
     #button-text{
         display: block;
         margin: 10px auto;
-        width: 100px;
+        width: 80%;
+        max-width: 100px;
         font-size: 17px;
     }
 }
