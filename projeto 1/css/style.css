@@ -69,7 +69,7 @@ img{
         display: none;
     }
     .nav{
-        position: absolute;
+        position: absolute;/*para que ele fique adaptavel, ele tem que ficar em posição absoluta para que modifique sua posição em porcentagem, assim ela vai ficar na porcentagem independente do tamanho da tela, fica a dica Agner*/
         margin: 0 10px 0;
 
         left: 70%;/* conseguir com que ele se adapte ao tamanho da tela assim, mas agora ele não fica do lado da tela que eu quero, ele fica na esquerda ao invés da direita*/
